@@ -13,7 +13,6 @@
 		038277471AFE1EA1007FD06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038277451AFE1EA1007FD06E /* Main.storyboard */; };
 		038277491AFE1EA1007FD06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038277481AFE1EA1007FD06E /* Images.xcassets */; };
 		0382774C1AFE1EA1007FD06E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0382774A1AFE1EA1007FD06E /* LaunchScreen.xib */; };
-		038277581AFE1EA1007FD06E /* PusherTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 038277571AFE1EA1007FD06E /* PusherTestTests.m */; };
 		36B15ACFA99AA851C9A6D45F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDDF6580A3F7DC24DA78AC6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +22,12 @@
 			containerPortal = 038277301AFE1EA0007FD06E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 038277371AFE1EA0007FD06E;
-			remoteInfo = PusherTest;
+			remoteInfo = PusherBasics;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038277381AFE1EA1007FD06E /* PusherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PusherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038277381AFE1EA1007FD06E /* PusherBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PusherBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0382773C1AFE1EA1007FD06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0382773D1AFE1EA1007FD06E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0382773F1AFE1EA1007FD06E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,9 +37,8 @@
 		038277461AFE1EA1007FD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		038277481AFE1EA1007FD06E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0382774B1AFE1EA1007FD06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		038277511AFE1EA1007FD06E /* PusherTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PusherTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		038277511AFE1EA1007FD06E /* PusherBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PusherBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038277561AFE1EA1007FD06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		038277571AFE1EA1007FD06E /* PusherTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PusherTestTests.m; sourceTree = "<group>"; };
 		31C1C7EC712439332EA94AE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7502BBA7402AA4B667C50FC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CCDDF6580A3F7DC24DA78AC6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,8 +66,8 @@
 		0382772F1AFE1EA0007FD06E = {
 			isa = PBXGroup;
 			children = (
-				0382773A1AFE1EA1007FD06E /* PusherTest */,
-				038277541AFE1EA1007FD06E /* PusherTestTests */,
+				0382773A1AFE1EA1007FD06E /* PusherBasics */,
+				038277541AFE1EA1007FD06E /* PusherBasicsTests */,
 				038277391AFE1EA1007FD06E /* Products */,
 				538DE5FF8E6038F77DF948B9 /* Pods */,
 				ADD6800CFA9900EB2AD0DD69 /* Frameworks */,
@@ -79,13 +77,13 @@
 		038277391AFE1EA1007FD06E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				038277381AFE1EA1007FD06E /* PusherTest.app */,
-				038277511AFE1EA1007FD06E /* PusherTestTests.xctest */,
+				038277381AFE1EA1007FD06E /* PusherBasics.app */,
+				038277511AFE1EA1007FD06E /* PusherBasicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0382773A1AFE1EA1007FD06E /* PusherTest */ = {
+		0382773A1AFE1EA1007FD06E /* PusherBasics */ = {
 			isa = PBXGroup;
 			children = (
 				0382773F1AFE1EA1007FD06E /* AppDelegate.h */,
@@ -97,7 +95,7 @@
 				0382774A1AFE1EA1007FD06E /* LaunchScreen.xib */,
 				0382773B1AFE1EA1007FD06E /* Supporting Files */,
 			);
-			path = PusherTest;
+			path = PusherBasics;
 			sourceTree = "<group>";
 		};
 		0382773B1AFE1EA1007FD06E /* Supporting Files */ = {
@@ -109,13 +107,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		038277541AFE1EA1007FD06E /* PusherTestTests */ = {
+		038277541AFE1EA1007FD06E /* PusherBasicsTests */ = {
 			isa = PBXGroup;
 			children = (
-				038277571AFE1EA1007FD06E /* PusherTestTests.m */,
 				038277551AFE1EA1007FD06E /* Supporting Files */,
 			);
-			path = PusherTestTests;
+			path = PusherBasicsTests;
 			sourceTree = "<group>";
 		};
 		038277551AFE1EA1007FD06E /* Supporting Files */ = {
@@ -146,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		038277371AFE1EA0007FD06E /* PusherTest */ = {
+		038277371AFE1EA0007FD06E /* PusherBasics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0382775B1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherTest" */;
+			buildConfigurationList = 0382775B1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherBasics" */;
 			buildPhases = (
 				F66382BF3F787D8A8A304D1C /* Check Pods Manifest.lock */,
 				038277341AFE1EA0007FD06E /* Sources */,
@@ -160,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = PusherTest;
-			productName = PusherTest;
-			productReference = 038277381AFE1EA1007FD06E /* PusherTest.app */;
+			name = PusherBasics;
+			productName = PusherBasics;
+			productReference = 038277381AFE1EA1007FD06E /* PusherBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		038277501AFE1EA1007FD06E /* PusherTestTests */ = {
+		038277501AFE1EA1007FD06E /* PusherBasicsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0382775E1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherTestTests" */;
+			buildConfigurationList = 0382775E1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherBasicsTests" */;
 			buildPhases = (
 				0382774D1AFE1EA1007FD06E /* Sources */,
 				0382774E1AFE1EA1007FD06E /* Frameworks */,
@@ -178,9 +175,9 @@
 			dependencies = (
 				038277531AFE1EA1007FD06E /* PBXTargetDependency */,
 			);
-			name = PusherTestTests;
-			productName = PusherTestTests;
-			productReference = 038277511AFE1EA1007FD06E /* PusherTestTests.xctest */;
+			name = PusherBasicsTests;
+			productName = PusherBasicsTests;
+			productReference = 038277511AFE1EA1007FD06E /* PusherBasicsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 038277331AFE1EA0007FD06E /* Build configuration list for PBXProject "PusherTest" */;
+			buildConfigurationList = 038277331AFE1EA0007FD06E /* Build configuration list for PBXProject "PusherBasics" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,8 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				038277371AFE1EA0007FD06E /* PusherTest */,
-				038277501AFE1EA1007FD06E /* PusherTestTests */,
+				038277371AFE1EA0007FD06E /* PusherBasics */,
+				038277501AFE1EA1007FD06E /* PusherBasicsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				038277581AFE1EA1007FD06E /* PusherTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		038277531AFE1EA1007FD06E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 038277371AFE1EA0007FD06E /* PusherTest */;
+			target = 038277371AFE1EA0007FD06E /* PusherBasics */;
 			targetProxy = 038277521AFE1EA1007FD06E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +405,7 @@
 			baseConfigurationReference = 7502BBA7402AA4B667C50FC6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PusherTest/Info.plist;
+				INFOPLIST_FILE = PusherBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,7 +416,7 @@
 			baseConfigurationReference = 31C1C7EC712439332EA94AE7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PusherTest/Info.plist;
+				INFOPLIST_FILE = PusherBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -438,10 +434,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PusherTestTests/Info.plist;
+				INFOPLIST_FILE = PusherBasicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusherTest.app/PusherTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusherBasics.app/PusherBasics";
 			};
 			name = Debug;
 		};
@@ -453,17 +449,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PusherTestTests/Info.plist;
+				INFOPLIST_FILE = PusherBasicsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusherTest.app/PusherTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PusherBasics.app/PusherBasics";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		038277331AFE1EA0007FD06E /* Build configuration list for PBXProject "PusherTest" */ = {
+		038277331AFE1EA0007FD06E /* Build configuration list for PBXProject "PusherBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				038277591AFE1EA1007FD06E /* Debug */,
@@ -472,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0382775B1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherTest" */ = {
+		0382775B1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0382775C1AFE1EA1007FD06E /* Debug */,
@@ -481,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0382775E1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherTestTests" */ = {
+		0382775E1AFE1EA1007FD06E /* Build configuration list for PBXNativeTarget "PusherBasicsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0382775F1AFE1EA1007FD06E /* Debug */,

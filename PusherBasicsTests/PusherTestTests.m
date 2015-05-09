@@ -1,6 +1,6 @@
 //
-//  PusherTestTests.m
-//  PusherTestTests
+//  PusherBasicsTests.m
+//  PusherBasicsTests
 //
 //  Created by Phil Leggetter on 09/05/2015.
 //  Copyright (c) 2015 Phil Leggetter. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface PusherTestTests : XCTestCase
+@interface PusherBasicsTests : XCTestCase
 
 @end
 
-@implementation PusherTestTests
+@implementation PusherBasicsTests
 
 - (void)setUp {
     [super setUp];
