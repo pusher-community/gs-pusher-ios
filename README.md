@@ -4,9 +4,9 @@ This repo provides a very basic iOS application that you can use to get started 
 
 It provides details of:
 
-1. [How to install and use cocoapods]()
-2. [How to use this Pusher Basics project]()
-3. [How to create a new Pusher iOS project from scratch]()
+1. [How to install and use cocoapods](#how-to-install-and-use-cocoapods)
+2. [How to use this Pusher Basics project](#how-to-use-this-pusher-basics-project)
+3. [How to create a new Pusher iOS project from scratch](#how-to-create-a-new-pusher-ios-project-from-scratch)
 
 Similar steps can be used for OSX projects.
 
@@ -45,7 +45,7 @@ Then you can call the `pod` directly via something like:
 
 The following steps will show you how to run the project within this repo.
 
-Ensure you've read the section on [installing and using cocoapods](#).
+Ensure you've read the section on [installing and using cocoapods](#how-to-install-and-use-cocoapods).
 
 ### Get the code
 
@@ -113,7 +113,7 @@ From here you can implement any additional functionality that you require.
 
 Below you'll find details of how to create a project that uses [libPusher][libPusher].
 
-Ensure you've read the section on [installing and using cocoapods](#).
+Ensure you've read the section on [installing and using cocoapods](#how-to-install-and-use-cocoapods).
 
 ### Create a project in Xcode
 
