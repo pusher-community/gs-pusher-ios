@@ -68,14 +68,4 @@
     }
 }
 
-- (BOOL)pusher:(PTPusher *)pusher connectionWillConnect:(PTPusherConnection *)connection
-{
-    return YES;
-}
-
-- (BOOL)pusher:(PTPusher *)pusher connectionWillAutomaticallyReconnect:(PTPusherConnection *)connection afterDelay:(NSTimeInterval)delay
-{
-    return YES;
-}
-
 @end
