@@ -23,7 +23,7 @@
     NSLog(@"viewDidLoad");
     
     // self.client is a strong instance variable of class PTPusher
-    _client = [PTPusher pusherWithKey:@"abb988cdb65953f56d6e" delegate:self encrypted:YES cluster:@"useast2"];
+    _client = [PTPusher pusherWithKey:@"YOUR_APP_KEY" delegate:self encrypted:YES];
     
     // subscribe to channel and bind to event
     PTPusherChannel *channel = [_client subscribeToChannelNamed:@"chat"];
