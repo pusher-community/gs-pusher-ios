@@ -52,13 +52,13 @@ Ensure you've read the section on [installing and using cocoapods](#how-to-insta
 Clone the repo locally:
 
 ```
-git clone git@github.com:leggetter/pusher-ios-basics.git
+git clone git@github.com:pusher-community/gs-pusher-ios.git
 ```
 
 Navigate to the repo:
 
 ```
-cd pusher-ios-basics
+cd gs-pusher-ios
 ```
 
 ### Install libPusher & Dependencies
